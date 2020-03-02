@@ -35,3 +35,15 @@ For connecting to the MySQL Database use the following credentials:
  User: root
  Password: geheim
 ```
+
+## Usage
+For usage within your project add the following to your `Vagrantfile`:
+```bash
+Vagrant.configure("2") do |config|
+  config.vm.box = "dnkfbrknme/vagrant-lamp"
+  # network
+  config.vm.network "private_network", ip: "192.168.33.10"
+  # disk
+  config.vm.synced_folder ".", "/var/www/html", :mount_options => ["dmode=777", "fmode=666"]
+end
+```
