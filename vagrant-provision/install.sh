@@ -40,7 +40,9 @@ sudo apt-get install -y libapache2-mod-php7.3 \
                         php-imagick \
                         php-oauth \
                         php-pear
+# mod-rewrite                        
 a2enmod rewrite
+sudo sed -i '/<Directory \/var\/www\/>/,/<\/Directory>/ s/AllowOverride None/AllowOverride All/' /etc/apache2/apache2.conf
 
 # i18n
 sudo locale-gen de_DE.UTF-8
