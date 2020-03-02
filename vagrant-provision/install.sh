@@ -22,22 +22,22 @@ sudo service mysql restart
 # php
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
-sudo apt-get install -y libapache2-mod-php5.6 \
-                        php5.6 \
-                        php5.6-cli \
-                        php5.6-curl \
-                        php5.6-gd \
-                        php5.6-imap \
-                        php5.6-intl \
-                        php5.6-mbstring \
-                        php5.6-mcrypt \
-                        php5.6-mysql \
-                        php5.6-tidy \
-                        php5.6-xml \
-                        php5.6-xsl \
-                        php5.6-zip \
-                        php5.6-opcache \
-                        php5.6-xdebug \
+sudo apt-get install -y libapache2-mod-php7.0 \
+                        php7.0 \
+                        php7.0-cli \
+                        php7.0-curl \
+                        php7.0-gd \
+                        php7.0-imap \
+                        php7.0-intl \
+                        php7.0-mbstring \
+                        php7.0-mcrypt \
+                        php7.0-mysql \
+                        php7.0-tidy \
+                        php7.0-xml \
+                        php7.0-xsl \
+                        php7.0-zip \
+                        php7.0-opcache \
+                        php7.0-xdebug \
                         php-imagick \
                         php-oauth \
                         php-pear
