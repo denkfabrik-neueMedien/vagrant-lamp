@@ -1,7 +1,7 @@
 Vagrant.configure("2") do |config|
     config.vm.box = "ubuntu/bionic64"
     # installation
-    config.vm.provision "shell", path: "provision/install.sh"
+    config.vm.provision "shell", path: "vagrant-provision/install.sh"
 
     # networking
     config.vm.network "forwarded_port", guest: 80, host: 8080
