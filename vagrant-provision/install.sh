@@ -22,21 +22,21 @@ sudo service mysql restart
 # php
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
-sudo apt-get install -y libapache2-mod-php7.2 \
-                        php7.2 \
-                        php7.2-cli \
-                        php7.2-curl \
-                        php7.2-gd \
-                        php7.2-imap \
-                        php7.2-intl \
-                        php7.2-mbstring \
-                        php7.2-mysql \
-                        php7.2-tidy \
-                        php7.2-xml \
-                        php7.2-xsl \
-                        php7.2-zip \
-                        php7.2-opcache \
-                        php7.2-xdebug \
+sudo apt-get install -y libapache2-mod-php7.3 \
+                        php7.3 \
+                        php7.3-cli \
+                        php7.3-curl \
+                        php7.3-gd \
+                        php7.3-imap \
+                        php7.3-intl \
+                        php7.3-mbstring \
+                        php7.3-mysql \
+                        php7.3-tidy \
+                        php7.3-xml \
+                        php7.3-xsl \
+                        php7.3-zip \
+                        php7.3-opcache \
+                        php7.3-xdebug \
                         php-imagick \
                         php-oauth \
                         php-pear

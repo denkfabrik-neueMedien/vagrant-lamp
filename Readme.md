@@ -26,7 +26,7 @@ $ vagrant up
 
 * Apache 2.4
 * MySQL 5.7
-* PHP 7.2
+* PHP 7.3
 
 ## MySQL
 
