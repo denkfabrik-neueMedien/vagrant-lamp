@@ -24,7 +24,7 @@ $ vagrant up
 
 ## Whats included
 
-* Apache 4.2
+* Apache 2.4
 * MySQL 5.7
 * PHP 5.6
 
